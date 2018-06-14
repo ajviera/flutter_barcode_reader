@@ -40,7 +40,7 @@ class BarcodeScannerActivity : Activity(), ZXingScannerView.ResultHandler {
 //为了让下面的背景色一致，还需要添加一行代码：
         actionBar.setSplitBackgroundDrawable( ColorDrawable(Color.parseColor("#33000000")))
 
-        title = "扫一扫"
+        title = "Back"
         scannerView = ZXingScannerView(this)
         scannerView.setAutoFocus(true)
         scannerView.setAspectTolerance(0.5f)
